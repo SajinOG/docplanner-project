@@ -1,0 +1,75 @@
+var _sTrackingAlreadyPresent = (typeof window._svd !== 'undefined' && typeof window._svc !== 'undefined');var _svc = window._svc || {};var _svd = window._svd || {};_svc.workspaceKey = _svc.workspaceKey || '4349004a3e5d846afa6b9dd246edb5f3';_svd.flags = _svd.flags || {"async_consumers":true};_svd.surveys = _svd.surveys || [{"id":"de0426670352d560","activated":true,"name":"Bea Test 1","type":"WidgetSurvey","points":[{"settings":{"text":"Start survey","user_tag":"","next_survey_point_id":null},"id":1277030,"type":"SurveyCta","answer_type":"button_next","content":"Ihre Zufriedenheit ist uns sehr wichtig, bitte nehmen Sie sich ca. 2 Minuten Zeit um ein paar kurze Fragen zu beantworten","description":"","max_path":4},{"settings":{"shape":"stars","text_on_the_left":"Sehr unzufrieden","text_on_the_right":"Sehr zufrieden","logic":[{"order_number":0,"uid":905759856674,"go_to":1277221,"condition":"is","operator":"or","value":[3605425,3605426,3605427,3605428]},{"order_number":1,"uid":1223277149604,"go_to":1277220,"condition":"is","operator":"or","value":[3605429,3605430,3605431]}]},"id":1277041,"type":"SurveyQuestion","answer_type":"rating","content":"Wie zufrieden sind Sie mit dem Kalender","description":"","max_path":3,"answers":[{"id":3605425,"type":null,"user_tag":"","next_survey_point_id":1277221,"possible_answer":"1"},{"id":3605426,"type":null,"user_tag":"","next_survey_point_id":1277221,"possible_answer":"2"},{"id":3605427,"type":null,"user_tag":"","next_survey_point_id":1277221,"possible_answer":"3"},{"id":3605428,"type":null,"user_tag":"","next_survey_point_id":1277221,"possible_answer":"4"},{"id":3605429,"type":null,"user_tag":"","next_survey_point_id":1277220,"possible_answer":"5"},{"id":3605430,"type":null,"user_tag":"","next_survey_point_id":1277220,"possible_answer":"6"},{"id":3605431,"type":null,"user_tag":"","next_survey_point_id":1277220,"possible_answer":"7"}]},{"settings":{"choice":{"max":0,"min":1,"text":""},"mandatory_comment":false,"randomize_answers":false,"next_survey_point_id":null,"randomize_except_last":false,"logic":[]},"id":1277219,"type":"SurveyQuestion","answer_type":"multiple","content":"","description":"","max_path":3,"answers":[{"id":3606019,"type":null,"user_tag":"","next_survey_point_id":null,"possible_answer":"Answer 1","add_comment":false},{"id":3606020,"type":null,"user_tag":"","next_survey_point_id":null,"possible_answer":"Answer 2","add_comment":false}]},{"settings":{"logic":[],"user_tag":"","mandatory":false,"next_survey_point_id":null},"id":1277220,"type":"SurveyQuestion","answer_type":"text","content":"Womit sind sie besonders zufrieden","description":"","max_path":2,"answers":[{"id":3606022,"type":null,"user_tag":null,"next_survey_point_id":null}]},{"settings":{"logic":[],"user_tag":"","mandatory":false,"next_survey_point_id":null},"id":1277221,"type":"SurveyQuestion","answer_type":"text","content":"Womit sind Sie besonders unzufrieden","description":"","max_path":1,"answers":[{"id":3606023,"type":null,"user_tag":null,"next_survey_point_id":null}]},{"settings":{"link":"","text":"","user_tag":"","twitter_link":"","facebook_link":"","linkedin_link":"","open_new_card":true,"next_survey_point_id":-1,"timeout_display_count":5},"id":1277223,"type":"SurveyCta","answer_type":"empty","content":"Vielen Dank, dass Sie sich zeitgenommen haben unsere Frage zu beantworten. Wir freuen uns auch über persönliches Feedback. Buchen sie unter www.demodesk.musterlink.de einen Termin mit unserem Produktteam. Vielen Dank","description":"","max_path":0}],"integrations":{},"links":[{"link":"https://kalender.jameda.de/calendar?configId=24545","visible":true,"link_type":"exact","regexp_text_pattern":"^kalender\\.jameda\\.de/calendar\\?configId=24545\\/?$"},{"link":"https://kalender.jameda.de/waitingroom/all?configId=24545","visible":true,"link_type":"exact","regexp_text_pattern":"^kalender\\.jameda\\.de/waitingroom/all\\?configId=24545\\/?$"},{"link":"https://kalender.jameda.de/statistics?configId=24545","visible":true,"link_type":"exact","regexp_text_pattern":"^kalender\\.jameda\\.de/statistics\\?configId=24545\\/?$"}],"audiences_ids":[183325],"provider":null,"theme_id":419777,"global_tags":null,"global_close_tags":null,"settings":{"launch":{"end_at":null,"start_at":null,"responses_limit":5},"overlay":"light","messages":{"tooltip":"Bitte nehmen Sie an einer Kurzen Umfrage teil","submit_text":"Weiter","answer_required_text":"","dropdown_placeholder":""},"recurring":true,"close_icon":"bottom","show_close":true,"display_all":false,"display_per":null,"appear_method":"immediately","display_delay":0,"has_responses":false,"place_to_show":"right","show_minimize":true,"display_scroll":80,"run_minimalized":true,"survey_language":"","recurring_period":-1,"show_progress_bar":true,"close_on_urlchange":false,"display_percentage":100,"display_not_engaged":false,"run_minimalized_mobile":true,"hide_footer":true,"languages":null}},{"id":"c7303ffe250f02a6","activated":true,"name":"Jans erster Test","type":"WidgetSurvey","points":[{"settings":{"link":"https://www.jameda.de/jobs/","text":"Stellen ansehen","user_tag":"","twitter_link":"","facebook_link":"","linkedin_link":"","open_new_card":true,"next_survey_point_id":-1,"timeout_display_count":5},"id":1274163,"type":"SurveyCta","answer_type":"button_link","content":"<h2>Verbessere das Leben von Millionen von Menschen: Revolutioniere zusammen mit uns das Gesundheitswesen. </h2>","description":"<h1> Bewerbe dich jetzt und werde Teil etwas Großem. Von jameda.</h1>","max_path":0}],"integrations":{},"links":[{"link":"https://www.jameda.de/vaterstetten/zahnaerzte/dr-klaus-schmidt/uebersicht/7042_1/","visible":true,"link_type":"exact","regexp_text_pattern":"^jameda\\.de/vaterstetten/zahnaerzte/dr\\-klaus\\-schmidt/uebersicht/7042_1/\\/?$"}],"audiences_ids":[183325],"provider":null,"theme_id":419777,"global_tags":null,"global_close_tags":null,"settings":{"launch":{"end_at":null,"start_at":null,"responses_limit":null},"overlay":"dark","messages":{"tooltip":"Wir stellen ein!","submit_text":"Submit","answer_required_text":"","dropdown_placeholder":""},"recurring":false,"close_icon":"top","show_close":true,"display_all":false,"display_per":null,"appear_method":"immediately","display_delay":5,"has_responses":true,"place_to_show":"center","show_minimize":true,"display_scroll":80,"run_minimalized":false,"survey_language":"","recurring_period":86400,"show_progress_bar":false,"close_on_urlchange":false,"display_percentage":100,"display_not_engaged":false,"run_minimalized_mobile":false,"hide_footer":true,"languages":null}}];_svd.themes = _svd.themes || [{"settings":{"company_logo":"","personalization":false,"short_text_message":"","avatar_image":""},"id":419777,"color_scheme":{"question":"#34414C","answer":"#01A3D4","button":"#01A3D4","background":"#FFFFFF","progress_bar":"#01A3D4"},"type":"MicroTheme"},{"settings":{"company_logo":"","personalization":false,"short_text_message":"","avatar_image":""},"id":419777,"color_scheme":{"question":"#34414C","answer":"#01A3D4","button":"#01A3D4","background":"#FFFFFF","progress_bar":"#01A3D4"},"type":"MicroTheme"}];_svd.permissions = _svd.permissions || {"targeting_javascript_api":true};_svd.audiences = _svd.audiences || [{"id":183325,"filters":[]}];_svd.integrations = _svd.integrations || [{"provider":"hubspot","enabled":true}];_svd.installing = _svd.installing || false;_svd.translations = _svd.translations || null;// Generated at: 2023\u002D03\u002D30\u002007\u003A32\u003A09
+(function () {
+  if (_sTrackingAlreadyPresent) {
+    return;
+  }
+
+  if (document && document.head) {
+    var linkElement = document.createElement('link');
+    linkElement.href = 'https\u003A\/\/surveys\u002Dstatic.survicate.com/fonts/fonts.css';
+    linkElement.rel = 'stylesheet';
+    linkElement.type = 'text/css';
+    document.head.appendChild(linkElement);
+  }
+
+  var isIE = window.navigator.userAgent.indexOf('MSIE') !== -1 || window.navigator.userAgent.match(/Trident.*rv\:11\./);
+  var isSafari = window.navigator.vendor && window.navigator.vendor.indexOf('Apple') > -1 && window.navigator.userAgent && window.navigator.userAgent.indexOf('CriOS') == -1 && window.navigator.userAgent.indexOf('FxiOS') == -1;
+
+  var isOldSafari = false;
+  if (isSafari && window.navigator.userAgent) {
+    var match = window.navigator.userAgent.match(/Version.([0-9]+)\./);
+    if (match && match.length === 2) {
+      if (parseInt(match[1]) < 11) {
+        isOldSafari = true;
+      }
+    }
+  }
+  var isOldEdge = window.navigator.userAgent.match(/Edge\/(15\.15|18\.18)/);
+
+  var coreUrls = ['https://surveys-static.survicate.com/widget_core-18.1.31.js'];
+  var e = document.getElementsByTagName('script')[0];
+
+  if (isIE || isOldSafari || isOldEdge) {
+    var css = 'h1 { width: 75%; height: 50%; overflow: auto; margin: auto; position: absolute; top: 0; left: 0; bottom: 0; right: 0; text-align: center; font-family: sans-serif; }'
+    var head = document.head || document.getElementsByTagName('head')[0];
+    var style = document.createElement('style');
+    var message = 'Your browser doesn’t meet our security standards. Please update your browser to answer this survey.'
+    var body = document.querySelector('body');
+    var splash = document.createElement('div');
+    var survey = document.querySelector('.survicate-survey');
+
+    if(!head || !survey) {
+      return;
+    }
+
+    head.appendChild(style);
+
+    style.type = 'text/css';
+
+    if (style.styleSheet){
+      // This is required for IE8 and below.
+      style.styleSheet.cssText = css;
+    } else {
+      style.appendChild(document.createTextNode(css));
+    }
+
+    splash.classList.add('splash-screen');
+    splash.innerHTML = '<h1>' + message + '</h1>';
+
+    if(!body) {
+      return;
+    }
+
+    body.appendChild(splash);
+
+    return;
+  }
+
+  for (var i = 0; i < coreUrls.length; i++) {
+    var s = document.createElement('script');
+    s.setAttribute('crossorigin', 'anonymous');
+    s.src = coreUrls[i];
+    s.async = true;
+    e.parentNode.insertBefore(s, e);
+  }
+})();

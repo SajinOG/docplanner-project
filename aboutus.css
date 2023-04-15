@@ -1,0 +1,304 @@
+* {
+  margin: 0em;
+  padding: 0em;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+.head {
+  width: 100vw;
+  background-color: white;
+  position: fixed;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em 10em;
+}
+.nav > ul > li {
+  display: inline-flex;
+  padding: 0.5em;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  justify-content: space-between;
+  text-transform: capitalize;
+  color: rgb(160, 149, 149);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+nav > ul > li > a:hover,
+.active {
+  color: #00b39b;
+}
+
+/* -----------------------------------------submenu--------------------------------------------------------------------- */
+.sub-menu {
+  display: none;
+  background-color: white;
+  box-shadow: 0px 0px 5px white;
+}
+
+li:hover .sub-menu {
+  display: block;
+  position: absolute;
+  padding: 0.5em;
+  margin-top: 2em;
+}
+
+li:hover .sub-menu ul li {
+  display: inline-flex;
+  list-style-type: none;
+  padding: 0.5em;
+  text-transform: capitalize;
+}
+
+li:hover .sub-menu ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+li:hover .sub-menu ul li a :hover {
+  color: #00b39b;
+}
+
+/*---------------------------------sebmenu---------------------------------------------------------------------*/
+.new {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5em;
+}
+
+.new > h1 {
+  color: #00b39b;
+  padding: 1em;
+}
+/*--------------------------------------------------------------------------------------*/
+.old {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+  padding: 0em 10em;
+}
+.man {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 3em 10em 2em 10em;
+}
+
+.one {
+  width: 23vw;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #00b39b;
+  padding: 2em;
+  border-radius: 8px;
+}
+.man > .one > h2 {
+  color: white;
+}
+.man > .one > p {
+  text-transform: lowercase;
+  font-size: 1.5rem;
+  color: white;
+}
+.man > .one > a {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.two {
+  width: 23vw;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #4169e1e8;
+  padding: 2em;
+  border-radius: 8px;
+}
+.man > .two > h2 {
+  color: white;
+}
+.man > .two > p {
+  text-transform: lowercase;
+  font-size: 1.5rem;
+  color: white;
+}
+.man > .two > a {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.three {
+  width: 23vw;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  padding: 0.5em;
+  border-radius: 8px;
+}
+.man > .three > h2 {
+  color: white;
+}
+.man > .three > p {
+  text-transform: lowercase;
+  font-size: 1.5rem;
+  color: white;
+}
+.man > .three > a {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.global {
+  padding: 1em 10em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.global > div {
+  width: 20vw;
+}
+
+.global > div > p {
+  font-size: 1.5rem;
+  color: #00b39b;
+}
+
+.global > .got {
+  width: 50vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.okoro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1em 10em;
+  column-gap: 20px;
+}
+
+.you {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  width: 25vw;
+  height: 100vh;
+  justify-content: space-between;
+}
+.you > .img {
+  width: 25vw;
+  background-image: url("img/logo.png");
+  background-size: cover;
+  /* border: 2px solid red; */
+  height: 60vh;
+}
+
+.you > h1 {
+  color: #00b39b;
+}
+
+.check {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* border: 2px solid red; */
+  width: 50vw;
+}
+
+.how {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em;
+}
+
+.how > div > h2 {
+  font-size: 25px;
+  color: #00b39b;
+  letter-spacing: 3px;
+  font-weight: lighter;
+}
+
+.how > div > p {
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  padding: 2em;
+  line-height: 1.4;
+  color: #333;
+}
+
+.simi {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 7em;
+}
+
+.dave {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0em 1em 0em 0em;
+  margin: 1.5em;
+}
+
+.dave > button {
+  background-color: #1e90ff;
+  padding: 0.9em;
+  border-radius: 5px;
+  border: none;
+  color: azure;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.dave h4 {
+  background-color: #fff;
+  max-width: 311px;
+  color: #747474;
+  display: block;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid whitesmoke;
+  padding: 8px;
+}
+
+.last {
+  display: flex;
+  justify-content: center;
+}
+
+.last > div h5 {
+  font-size: 30px;
+  font-stretch: expanded;
+  color: #333;
+  font-weight: 1;
+  text-transform: capitalize;
+}
+
+.last > div > button {
+  background-color: #1e90ff;
+  padding: 1em;
+  border-radius: 5px;
+  border: none;
+  color: azure;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 2em 0em 0em 10em;
+}
